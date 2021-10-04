@@ -6,5 +6,6 @@ get '/' do
 end
 
 get '/cat' do
+  @names = ["Amigo", "Misty", "Almond"]
   erb(:index)
 end
